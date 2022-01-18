@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn {
@@ -27,26 +27,21 @@ body {
   padding: 1rem;
   height: 5vh;
 }
-
 .menu__logo h3 {
   margin: 0;
 }
-
 .menu__logo h3 span {
   color: #35CC61;
 }
-
 .menu__items {
   display: flex;
   gap: 2rem;
 }
-
 .menu__items .lang a {
   text-decoration: none;
   text-transform: uppercase;
   color: #2F2E41;
 }
-
 .menu__burger {
   position: absolute;
   display: none;
@@ -56,7 +51,6 @@ body {
   background-color: #fff;
   padding: 2rem;
 }
-
 .menu__burger a {
   text-decoration: none;
   color: #2F2E41;
@@ -64,7 +58,6 @@ body {
   font-size: 1.6rem;
   cursor: pointer;
 }
-
 .menu .menu-active {
   position: absolute;
   display: flex;
@@ -79,36 +72,37 @@ body {
   padding-bottom: 25rem;
   position: relative;
 }
-
 .top__wrapper {
   display: flex;
 }
-
 .top__wrapper .welcome {
   width: 80%;
   padding: 2rem 6rem 2rem 2rem;
 }
-
 .top__wrapper .welcome h2 {
   font-size: 1.6rem;
 }
-
 .top__wrapper .welcome h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-
 .top__wrapper .welcome p {
   font-size: 1rem;
 }
-
+.top__wrapper__illustration {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
 .top__wrapper .top-img {
   position: absolute;
   width: 50%;
   right: -15%;
   top: 2rem;
 }
-
 .top__tech-box {
   position: absolute;
   top: 52%;
@@ -120,20 +114,17 @@ body {
   width: 80%;
   box-shadow: 9px -5px 17px 1px #c0c0c4;
 }
-
 .top__tech-box h3 {
   text-align: center;
   font-size: 1.6rem;
   margin-bottom: 3rem;
 }
-
 .top__tech-box .tech-img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 2rem;
 }
-
 .top__tech-box .tech-img img {
   width: 70%;
   justify-self: center;
@@ -146,24 +137,20 @@ body {
   color: #fff;
   text-align: center;
 }
-
 .projects h2 {
   font-size: 1.8rem;
   font-weight: 700;
 }
-
 .projects p {
   font-size: 1rem;
   padding: 0 6rem;
   color: rgba(255, 255, 255, 0.75);
 }
-
 .projects .box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .projects .box button {
   margin-top: 2rem;
 }
@@ -173,7 +160,6 @@ body {
   border-bottom: 4px solid #DDE3EF;
   padding: 4rem 0;
 }
-
 .about h2 {
   font-size: 1.8rem;
   text-align: center;
@@ -181,19 +167,15 @@ body {
   font-weight: 700;
   margin-bottom: 2rem;
 }
-
 .about h2 span {
   color: #35CC61;
 }
-
 .about__box {
   display: flex;
 }
-
 .about__box img {
   width: 50%;
 }
-
 .about__box p {
   color: #2F2E41;
   margin: 0 0 3rem 0;
@@ -205,20 +187,16 @@ body {
   padding: 4rem 0;
   color: #2F2E41;
 }
-
 .opinions__text {
   margin-bottom: 3rem;
 }
-
 .opinions__text h3 {
   font-weight: 700;
   font-size: 1.8rem;
 }
-
 .opinions__text p {
   padding: 0 6.5rem;
 }
-
 .opinions__box {
   background-color: #fff;
   box-shadow: 9px -5px 17px 1px #c0c0c4;
@@ -227,20 +205,16 @@ body {
   padding: 2rem 0;
   margin: 0 auto;
 }
-
 .opinions__box img {
   width: 20%;
 }
-
 .opinions__box blockquote {
   padding: 2rem 2.5rem;
   margin: 0;
 }
-
 .opinions__box h4 {
   font-weight: 700;
 }
-
 .opinions__box p {
   margin: 0;
 }
@@ -251,12 +225,10 @@ body {
   color: #fff;
   padding: 1.6rem 0 2rem 0;
 }
-
 .contact h2 {
   font-weight: 700;
   font-size: 1.8rem;
 }
-
 .contact__mail {
   display: flex;
   gap: 2rem;
@@ -264,17 +236,16 @@ body {
   align-items: center;
   margin-bottom: 3rem;
 }
-
 .contact__mail img {
   width: 5%;
 }
-
 .contact__mail p {
   margin: 0;
   opacity: 73%;
 }
-
 .contact p {
   margin: 0;
   opacity: 73%;
 }
+
+/*# sourceMappingURL=style.css.map */
