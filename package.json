@@ -1,0 +1,19 @@
+{
+  "name": "tadeuszolszewski",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sulekkk/TadeuszOlszewski.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sulekkk/TadeuszOlszewski/issues"
+  },
+  "homepage": "https://github.com/Sulekkk/TadeuszOlszewski#readme"
+}
