@@ -1,0 +1,247 @@
+@import './colors.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 0.9rem 1.8rem;
+    color: $dark;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 5vh;
+    &__logo{
+        h3{
+            margin: 0;
+            span{
+                color: $green-primary;
+            }
+        }   
+    }
+    &__items{
+        display: flex;
+        gap: 2rem;
+        .lang{
+            a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $dark;
+            }
+        }
+    }
+    &__burger{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+        background-color: #fff;
+        padding: 2rem;
+        a{
+            text-decoration: none;
+            color: $dark;
+            font-weight: 700;
+            font-size: 1.6rem;
+            cursor: pointer;
+        }
+    }
+    .menu-active{
+        position: absolute;
+        display: flex;
+        top: 5vh;
+        left:0;
+        z-index: 2;
+    }
+}
+
+.top{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding-bottom: 25rem;
+    position: relative;
+    &__wrapper{
+        display: flex;
+        .welcome{
+            width: 80%;
+            padding: 2rem 6rem 2rem 2rem;
+            h2{
+                font-size: 1.6rem;
+            }
+            h1{
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+        .top-img{
+            position: absolute;
+            width: 50%;
+            right: -15%;
+            top: 2rem;
+        }
+    }
+    
+    &__tech-box{
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgb(235, 235, 235);
+        padding: 2rem;
+        border-radius: 4rem;
+        width: 80%;
+        box-shadow: 9px -5px 17px 1px rgba(192, 192, 196, 1);
+        h3{
+            text-align: center;
+            font-size: 1.6rem;
+            margin-bottom: 3rem;
+        }
+        .tech-img{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            gap: 2rem;
+            img{
+                width: 70%;
+                justify-self: center;
+                align-self: center;
+            }
+        }
+    }
+}
+.projects{
+    padding: 23rem 0 10rem 0;
+    background-color: $green-primary;
+    color: #fff;
+    text-align: center;
+    h2{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1rem;
+        padding: 0 6rem;
+        color: rgba($color: #fff, $alpha: 0.75);
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        button{
+            margin-top: 2rem;
+        }
+    }
+}
+
+.about{
+    background-color: rgb(245, 245, 245);
+    border-bottom: 4px solid $light;
+    padding: 4rem 0;
+    h2{
+        font-size: 1.8rem;
+        text-align: center;
+        color: $dark;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        span{
+            color: $green-primary;
+        }
+    }
+    &__box{
+        display: flex;
+        img{
+            width: 50%;
+        }
+        p{
+            color: $dark;
+            margin:0 0 3rem 0;
+        }
+    }
+}
+
+.opinions{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 4rem 0;
+    color: $dark;
+    &__text{
+        margin-bottom: 3rem;
+        h3{
+            font-weight: 700;
+            font-size: 1.8rem;
+        }
+        p{
+            padding: 0 6.5rem;
+        }
+    }
+    &__box{
+        background-color: #fff;
+        box-shadow: 9px -5px 17px 1px rgba(192, 192, 196, 1);
+        width: 90%;
+        border-radius: 2rem;
+        padding: 2rem 0;
+        margin: 0 auto;
+        img{
+            width: 20%;
+        }
+        blockquote{
+            padding: 2rem 2.5rem;
+            margin: 0;
+        }
+        h4{
+            font-weight: 700;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
+
+.contact{
+    background-color: $green-primary;
+    text-align: center;
+    color: #fff;
+    padding: 1.6rem 0 2rem 0;
+    h2{
+        font-weight: 700;
+        font-size: 1.8rem;
+    }  
+    &__mail{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+        img{
+            width: 5%;
+        }
+        p{
+            margin: 0;
+            opacity: 73%;
+        }
+    }
+    p{
+        margin: 0;
+        opacity: 73%;
+    }
+}
