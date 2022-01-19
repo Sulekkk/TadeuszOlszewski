@@ -201,13 +201,14 @@ body {
   padding: 0 5.5rem;
 }
 .opinions .swiper {
-  width: 90%;
-  height: 47vh;
+  width: 100%;
+  height: 37vh;
+  padding-top: 2rem;
 }
 .opinions .swiper .opinions-box {
   background-color: #fff;
   box-shadow: 9px -5px 17px 1px #c0c0c4;
-  width: 90%;
+  width: 85%;
   border-radius: 2rem;
   padding: 2rem 0;
   margin: 0 auto;
@@ -461,6 +462,7 @@ body {
   .opinions .swiper {
     width: 100%;
     height: 55vh;
+    padding-top: 2rem;
   }
   .opinions .swiper .opinions-box {
     background-color: #fff;
@@ -498,6 +500,28 @@ body {
   .contact .p-copy {
     margin: 0;
     font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .top {
+    height: 75vh;
+  }
+  .top .welcome h1 {
+    margin-bottom: 4rem;
+  }
+
+  .projects {
+    padding: 23rem 0 10rem 0;
+  }
+
+  .opinions .opinions-text p {
+    padding: 0;
+  }
+  .opinions .swiper {
+    height: 41vh;
+  }
+  .opinions .swiper .opinions-box {
+    width: 80%;
   }
 }
 
