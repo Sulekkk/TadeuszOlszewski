@@ -44,7 +44,8 @@
       content: "";
       display: block; }
     .hamburger-inner::before {
-      top: -10px; }
+      top: -10px;
+      background-color: #35CC61;}
     .hamburger-inner::after {
       bottom: -10px; }
 

@@ -205,6 +205,9 @@ body {
   height: 37vh;
   padding-top: 2rem;
 }
+.opinions .swiper-pagination-bullet-active {
+  background-color: #35CC61 !important;
+}
 .opinions .swiper .opinions-box {
   background-color: #fff;
   box-shadow: 9px -5px 17px 1px #c0c0c4;
