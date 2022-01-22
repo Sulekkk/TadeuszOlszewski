@@ -31,10 +31,12 @@
   .hamburger-inner {
     display: block;
     top: 50%;
-    margin-top: -2px; }
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0; }
     .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-      width: 30px;
-      height: 4px;
+      width: 15px;
+      height: 2px;
       background-color: #000;
       border-radius: 0;
       position: absolute;
@@ -45,10 +47,10 @@
       content: "";
       display: block; }
     .hamburger-inner::before {
-      top: -10px;
-      background-color: #000; }
+      top: -5px;
+      background-color: #000;}
     .hamburger-inner::after {
-      bottom: -10px; }
+      bottom: -5px; }
 
       .hamburger--spin .hamburger-inner {
         transition-duration: 0.22s;

@@ -25,7 +25,7 @@ body{
     background-color: #fff;
     border-radius: 2rem;
     padding: 0.9rem 1.8rem;
-    color: $dark;
+    color: $typeface;
     font-weight: 700;
     cursor: pointer;
 }
@@ -43,7 +43,7 @@ body{
         h3{
             margin: 0;
             span{
-                color: $green-primary;
+                color: $primary;
             }
         }
     }
@@ -60,7 +60,7 @@ body{
         transition: .5s ease;
         a{
             text-decoration: none;
-            color: $dark;
+            color: $typeface;
             font-weight: 700;
             font-size: 1.6rem;
             cursor: pointer;
@@ -149,7 +149,7 @@ body{
 }
 .projects{
     padding: 23rem 0 10rem 0;
-    background-color: $green-primary;
+    background-color: $primary;
     color: #fff;
     text-align: center;
     h2{
@@ -173,7 +173,7 @@ body{
 
 .about{
     background-color: rgb(245, 245, 245);
-    border-bottom: 4px solid $light;
+    border-bottom: 4px solid $additional;
     padding: 4rem 0;
     display: grid;
     align-items: center;
@@ -183,19 +183,19 @@ body{
     .about-h2{
         text-align: center;
         font-size: 1.8rem;
-        color: $dark;
+        color: $typeface;
         font-weight: 700;
         grid-area: h2;
         margin-bottom: 2rem;
         span{
-            color: $green-primary;
+            color: $primary;
         }
     }
     .about-img{
         grid-area: img;
     }
     .about-p{
-        color: $dark;
+        color: $typeface;
         grid-area: p;
         margin: 0;
         padding: 0 3rem;
@@ -206,7 +206,7 @@ body{
     text-align: center;
     background-color: rgb(245, 245, 245);
     padding: 4rem 0;
-    color: $dark;
+    color: $typeface;
     .opinions-text{
         margin-bottom: 3rem;
         h3{
@@ -222,7 +222,7 @@ body{
         width: 100%;
         padding-top: 2rem;
         &-pagination-bullet-active {
-            background-color: $green-primary !important;
+            background-color: $primary !important;
         }
         &-pagination{
             position: relative;
@@ -253,7 +253,7 @@ body{
 }
 
 .contact{
-    background-color: $green-primary;
+    background-color: $primary;
     text-align: center;
     color: #fff;
     padding: 1.6rem 0 2rem 0;
@@ -286,7 +286,7 @@ body{
         display: flex;
         justify-content: space-between;
         padding: 3rem;
-        color: $dark;
+        color: $typeface;
         &__burger, &__burger-icon{
             display: none;
         }
@@ -296,7 +296,7 @@ body{
             justify-content: space-evenly;
             a{
                 text-decoration: none;
-                color: $dark;
+                color: $typeface;
                 font-weight: 700;
                 font-size: 1.6rem;
                 cursor: pointer;
@@ -310,7 +310,7 @@ body{
                 height: 3px;
                 border-radius: 2rem;
                 width: 0;
-                background-color: $dark;
+                background-color: $typeface;
             }
 
             a::before{
@@ -422,7 +422,7 @@ body{
                     top: 0;
                     height: 100%;
                     width: 0;
-                    background-color: $light;
+                    background-color: $additional;
                     border-radius: 4rem;
                 }
     
@@ -442,7 +442,7 @@ body{
                     background-color: transparent;
                 }
                 button:active{
-                    background-color: $violet-secondary;
+                    background-color: $secondary;
                 }
             }
         }
@@ -460,7 +460,7 @@ body{
             margin: 0;
             padding-left: 4rem;
             span{
-                color: $green-primary;
+                color: $primary;
             }
         }
         .about-img{
