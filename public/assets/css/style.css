@@ -211,11 +211,14 @@ body {
 }
 .opinions .swiper {
   width: 100%;
-  height: 38vh;
   padding-top: 2rem;
 }
 .opinions .swiper-pagination-bullet-active {
   background-color: #35CC61 !important;
+}
+.opinions .swiper-pagination {
+  position: relative;
+  margin-top: 3.5rem;
 }
 .opinions .swiper .opinions-box {
   background-color: #fff;
@@ -473,8 +476,11 @@ body {
   }
   .opinions .swiper {
     width: 100%;
-    height: 55vh;
     padding-top: 2rem;
+  }
+  .opinions .swiper-pagination {
+    position: relative;
+    margin-top: 5rem;
   }
   .opinions .swiper .opinions-box {
     background-color: #fff;
@@ -529,8 +535,9 @@ body {
   .opinions .opinions-text p {
     padding: 0;
   }
-  .opinions .swiper {
-    height: 41vh;
+  .opinions .swiper-pagination {
+    position: relative;
+    margin-top: 3.5rem;
   }
   .opinions .swiper .opinions-box {
     width: 80%;

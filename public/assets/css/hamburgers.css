@@ -1,6 +1,7 @@
 .hamburger {
     /* padding: 15px 15px; */
-    display: inline-block;
+    display: flex;
+    align-self: center;
     cursor: pointer;
     transition-property: opacity, filter;
     transition-duration: 0.15s;
@@ -35,7 +36,7 @@
       width: 30px;
       height: 4px;
       background-color: #000;
-      border-radius: 4px;
+      border-radius: 0;
       position: absolute;
       transition-property: transform;
       transition-duration: 0.15s;
@@ -45,7 +46,7 @@
       display: block; }
     .hamburger-inner::before {
       top: -10px;
-      background-color: #35CC61;}
+      background-color: #000; }
     .hamburger-inner::after {
       bottom: -10px; }
 
