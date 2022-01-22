@@ -165,7 +165,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        button{
+        a{
             margin-top: 2rem;
         }
     }
@@ -396,6 +396,7 @@ body{
             display: flex;
             width: 100%;
             justify-content: center;
+            gap: 2rem;
             .box{
                 width: 33.33%;
                 img:nth-child(1){
@@ -404,7 +405,7 @@ body{
                 img:nth-child(2){
                     width: 30%;
                 }
-                button{
+                a{
                     font-size: 1.6rem;
                     padding: 2rem 5rem;
                     border-radius: 4rem;position: relative;
@@ -415,7 +416,7 @@ body{
                         z-index: 1;
                     }
                 }
-                button::after, button::before{
+                a::after, a::before{
                     content: "";
                     display: block;
                     position: absolute;
@@ -426,22 +427,22 @@ body{
                     border-radius: 4rem;
                 }
     
-                button::before{
+                a::before{
                     left: 0;
                 }
-                button::after{
+                a::after{
                     right: 0;
                     transition: width .4s;
                 }
-                button:hover::before{
+                a:hover::before{
                     width: 100%;
                     transition: width .4s;
                 }
-                button:hover::after{
+                a:hover::after{
                     width: 100%;
                     background-color: transparent;
                 }
-                button:active{
+                a:active{
                     background-color: $secondary;
                 }
             }

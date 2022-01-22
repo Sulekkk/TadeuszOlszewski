@@ -159,7 +159,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.projects .box button {
+.projects .box a {
   margin-top: 2rem;
 }
 
@@ -385,6 +385,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
+    gap: 2rem;
   }
   .projects__boxes .box {
     width: 33.33%;
@@ -395,7 +396,7 @@ body {
   .projects__boxes .box img:nth-child(2) {
     width: 30%;
   }
-  .projects__boxes .box button {
+  .projects__boxes .box a {
     font-size: 1.6rem;
     padding: 2rem 5rem;
     border-radius: 4rem;
@@ -403,11 +404,11 @@ body {
     overflow: hidden;
     border: none;
   }
-  .projects__boxes .box button span {
+  .projects__boxes .box a span {
     position: relative;
     z-index: 1;
   }
-  .projects__boxes .box button::after, .projects__boxes .box button::before {
+  .projects__boxes .box a::after, .projects__boxes .box a::before {
     content: "";
     display: block;
     position: absolute;
@@ -417,22 +418,22 @@ body {
     background-color: #DDE3EF;
     border-radius: 4rem;
   }
-  .projects__boxes .box button::before {
+  .projects__boxes .box a::before {
     left: 0;
   }
-  .projects__boxes .box button::after {
+  .projects__boxes .box a::after {
     right: 0;
     transition: width 0.4s;
   }
-  .projects__boxes .box button:hover::before {
+  .projects__boxes .box a:hover::before {
     width: 100%;
     transition: width 0.4s;
   }
-  .projects__boxes .box button:hover::after {
+  .projects__boxes .box a:hover::after {
     width: 100%;
     background-color: transparent;
   }
-  .projects__boxes .box button:active {
+  .projects__boxes .box a:active {
     background-color: #764ABC;
   }
 
