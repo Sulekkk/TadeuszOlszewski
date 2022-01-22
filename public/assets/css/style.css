@@ -14,6 +14,11 @@ body {
   margin: 0 auto;
 }
 
+.stop-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .btn {
   background-color: #fff;
   border-radius: 2rem;
@@ -29,6 +34,8 @@ body {
   align-items: center;
   padding: 1rem;
   height: 5vh;
+  position: relative;
+  z-index: 3;
 }
 .menu__logo h3 {
   margin: 0;
@@ -38,13 +45,15 @@ body {
 }
 .menu__burger {
   position: absolute;
-  display: none;
+  top: 5vh;
+  transform: translateX(-102.5%);
+  display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 100%;
   background-color: #fff;
   padding: 2rem;
-  transition: 1s;
+  transition: 0.5s ease;
 }
 .menu__burger a {
   text-decoration: none;
@@ -57,8 +66,8 @@ body {
   position: absolute;
   display: flex;
   top: 5vh;
-  left: 0;
-  z-index: 2;
+  transform: translateX(-2.5%);
+  width: 100%;
 }
 .menu__desktop {
   display: none;
@@ -202,7 +211,7 @@ body {
 }
 .opinions .swiper {
   width: 100%;
-  height: 37vh;
+  height: 38vh;
   padding-top: 2rem;
 }
 .opinions .swiper-pagination-bullet-active {
