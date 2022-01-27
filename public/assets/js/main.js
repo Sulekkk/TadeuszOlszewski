@@ -38,5 +38,3 @@ const swiper = new Swiper('.swiper', {
       delay: 10000,
     },
   });
-
-  console.log(menuItems);
