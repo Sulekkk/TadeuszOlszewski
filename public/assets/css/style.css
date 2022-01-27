@@ -37,12 +37,15 @@ body {
   position: relative;
   z-index: 3;
 }
+
 .menu__logo h3 {
   margin: 0;
 }
+
 .menu__logo h3 span {
   color: #35CC61;
 }
+
 .menu__burger {
   position: absolute;
   top: 5vh;
@@ -55,6 +58,7 @@ body {
   padding: 2rem;
   transition: 0.5s ease;
 }
+
 .menu__burger a {
   text-decoration: none;
   color: #2F2E41;
@@ -62,6 +66,7 @@ body {
   font-size: 1.6rem;
   cursor: pointer;
 }
+
 .menu .menu-active {
   position: absolute;
   display: flex;
@@ -69,6 +74,7 @@ body {
   transform: translateX(-2.5%);
   width: 100%;
 }
+
 .menu__desktop {
   display: none;
   font-size: 3rem;
@@ -80,23 +86,29 @@ body {
   padding-bottom: 25rem;
   position: relative;
 }
+
 .top__wrapper {
   display: flex;
 }
+
 .top__wrapper .welcome {
   width: 80%;
   padding: 2rem 6rem 2rem 2rem;
 }
+
 .top__wrapper .welcome h2 {
   font-size: 1.6rem;
 }
+
 .top__wrapper .welcome h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
 .top__wrapper .welcome p {
   font-size: 1rem;
 }
+
 .top__wrapper__illustration {
   width: 100%;
   height: 100vh;
@@ -105,12 +117,14 @@ body {
   right: 0;
   overflow: hidden;
 }
+
 .top__wrapper .top-img {
   position: absolute;
   width: 50%;
   right: -15%;
   top: 2rem;
 }
+
 .top__tech-box {
   position: absolute;
   top: 52%;
@@ -122,17 +136,20 @@ body {
   width: 80%;
   box-shadow: 9px -5px 17px 1px #c0c0c4;
 }
+
 .top__tech-box h3 {
   text-align: center;
   font-size: 1.6rem;
   margin-bottom: 3rem;
 }
+
 .top__tech-box .tech-img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 2rem;
 }
+
 .top__tech-box .tech-img img {
   width: 70%;
   justify-self: center;
@@ -145,20 +162,24 @@ body {
   color: #fff;
   text-align: center;
 }
+
 .projects h2 {
   font-size: 1.8rem;
   font-weight: 700;
 }
+
 .projects p {
   font-size: 1rem;
   padding: 0 6rem;
   color: rgba(255, 255, 255, 0.75);
 }
+
 .projects .box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .projects .box a {
   margin-top: 2rem;
 }
@@ -171,6 +192,7 @@ body {
   align-items: center;
   grid-template-areas: "h2 h2" "img p";
 }
+
 .about .about-h2 {
   text-align: center;
   font-size: 1.8rem;
@@ -179,17 +201,20 @@ body {
   grid-area: h2;
   margin-bottom: 2rem;
 }
+
 .about .about-h2 span {
   color: #35CC61;
 }
+
 .about .about-img {
   grid-area: img;
 }
+
 .about .about-p {
   color: #2F2E41;
   grid-area: p;
   margin: 0;
-  padding: 0 3rem;
+  padding: 0 1.5rem;
 }
 
 .opinions {
@@ -198,46 +223,63 @@ body {
   padding: 4rem 0;
   color: #2F2E41;
 }
+
 .opinions .opinions-text {
   margin-bottom: 3rem;
 }
+
 .opinions .opinions-text h3 {
   font-weight: 700;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
+
 .opinions .opinions-text p {
   padding: 0 5.5rem;
 }
+
 .opinions .swiper {
   width: 100%;
   padding-top: 2rem;
 }
+
 .opinions .swiper-pagination-bullet-active {
   background-color: #35CC61 !important;
 }
+
 .opinions .swiper-pagination {
   position: relative;
   margin-top: 3.5rem;
 }
+
 .opinions .swiper .opinions-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
   box-shadow: 9px -5px 17px 1px #c0c0c4;
   width: 85%;
+  height: 40vh;
   border-radius: 2rem;
   padding: 2rem 0;
   margin: 0 auto;
 }
+
 .opinions .swiper .opinions-box img {
   width: 25%;
+  border-radius: 50%;
 }
+
 .opinions .swiper .opinions-box blockquote {
   padding: 2rem 2.5rem;
   margin: 0;
 }
+
 .opinions .swiper .opinions-box h4 {
   font-weight: 700;
 }
+
 .opinions .swiper .opinions-box p {
   margin: 0;
 }
@@ -248,10 +290,12 @@ body {
   color: #fff;
   padding: 1.6rem 0 2rem 0;
 }
+
 .contact h2 {
   font-weight: 700;
   font-size: 1.8rem;
 }
+
 .contact__mail {
   display: flex;
   gap: 2rem;
@@ -259,13 +303,16 @@ body {
   align-items: center;
   margin-bottom: 3rem;
 }
+
 .contact__mail img {
   width: 5%;
 }
+
 .contact__mail p {
   margin: 0;
   opacity: 73%;
 }
+
 .contact p {
   margin: 0;
   opacity: 73%;
@@ -278,14 +325,17 @@ body {
     padding: 3rem;
     color: #2F2E41;
   }
+
   .menu__burger, .menu__burger-icon {
     display: none;
   }
+
   .menu__desktop {
     display: flex;
     width: 40%;
     justify-content: space-evenly;
   }
+
   .menu__desktop a {
     text-decoration: none;
     color: #2F2E41;
@@ -294,6 +344,7 @@ body {
     cursor: pointer;
     position: relative;
   }
+
   .menu__desktop a::after, .menu__desktop a::before {
     position: absolute;
     bottom: 0;
@@ -304,17 +355,21 @@ body {
     width: 0;
     background-color: #2F2E41;
   }
+
   .menu__desktop a::before {
     left: 0;
   }
+
   .menu__desktop a::after {
     right: 0;
     transition: width 0.5s;
   }
+
   .menu__desktop a:hover::before {
     width: 100%;
     transition: width 0.5s;
   }
+
   .menu__desktop a:hover::after {
     width: 100%;
     background-color: transparent;
@@ -324,48 +379,58 @@ body {
     width: 100%;
     height: 130vh;
   }
+
   .top__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
+
   .top__wrapper .welcome {
     grid-column: 0/1;
     grid-row: 0/1;
     width: 100%;
     padding: 8rem 6rem 0 8rem;
   }
+
   .top__wrapper .welcome h2 {
     font-size: 3.6rem;
     margin-bottom: 3rem;
   }
+
   .top__wrapper .welcome h1 {
     font-size: 5.4rem;
     margin-bottom: 16rem;
   }
+
   .top__wrapper .welcome p {
     font-size: 2.4rem;
   }
+
   .top__wrapper__illustration {
     grid-column: 1/2;
     grid-row: 0/1;
   }
+
   .top__wrapper__illustration .top-img {
     width: 50%;
     right: 0%;
     top: 6rem;
   }
+
   .top__tech-box {
     position: absolute;
     top: 76%;
     left: 50%;
     width: 80%;
   }
+
   .top__tech-box h3 {
     font-size: 2.4rem;
     padding: 2rem 0 4rem 0;
     margin: 0;
   }
+
   .top__tech-box .tech-img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -374,28 +439,35 @@ body {
   .projects {
     padding: 35rem 0 10rem 0;
   }
+
   .projects h2 {
     font-size: 3.6rem;
     margin-bottom: 7rem;
   }
+
   .projects p {
     font-size: 2.4rem;
   }
+
   .projects__boxes {
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 2rem;
   }
+
   .projects__boxes .box {
     width: 33.33%;
   }
+
   .projects__boxes .box img:nth-child(1) {
     width: 100%;
   }
+
   .projects__boxes .box img:nth-child(2) {
     width: 30%;
   }
+
   .projects__boxes .box a {
     font-size: 1.6rem;
     padding: 2rem 5rem;
@@ -404,10 +476,12 @@ body {
     overflow: hidden;
     border: none;
   }
+
   .projects__boxes .box a span {
     position: relative;
     z-index: 1;
   }
+
   .projects__boxes .box a::after, .projects__boxes .box a::before {
     content: "";
     display: block;
@@ -418,21 +492,26 @@ body {
     background-color: #DDE3EF;
     border-radius: 4rem;
   }
+
   .projects__boxes .box a::before {
     left: 0;
   }
+
   .projects__boxes .box a::after {
     right: 0;
     transition: width 0.4s;
   }
+
   .projects__boxes .box a:hover::before {
     width: 100%;
     transition: width 0.4s;
   }
+
   .projects__boxes .box a:hover::after {
     width: 100%;
     background-color: transparent;
   }
+
   .projects__boxes .box a:active {
     background-color: #764ABC;
   }
@@ -441,6 +520,7 @@ body {
     grid-template-areas: "img h2" "img p";
     align-items: start;
   }
+
   .about .about-h2 {
     text-align-last: left;
     font-size: 3.6rem;
@@ -448,12 +528,15 @@ body {
     margin: 0;
     padding-left: 4rem;
   }
+
   .about .about-h2 span {
     color: #35CC61;
   }
+
   .about .about-img {
     grid-area: img;
   }
+
   .about .about-p {
     text-align: left;
     grid-area: p;
@@ -466,42 +549,52 @@ body {
   .opinions .opinions-text {
     margin-bottom: 3rem;
   }
+
   .opinions .opinions-text h3 {
     font-size: 3.6rem;
     margin-bottom: 1rem;
   }
+
   .opinions .opinions-text p {
     width: 48%;
     margin: 0 auto;
     font-size: 2.4rem;
   }
+
   .opinions .swiper {
     width: 100%;
     padding-top: 2rem;
   }
+
   .opinions .swiper-pagination {
     position: relative;
     margin-top: 5rem;
   }
+
   .opinions .swiper .opinions-box {
     background-color: #fff;
     box-shadow: 9px -5px 17px 1px #c0c0c4;
     width: 60%;
+    height: 55vh;
     border-radius: 2rem;
     padding: 2rem 0;
     margin: 0 auto;
   }
+
   .opinions .swiper .opinions-box img {
     width: 20%;
   }
+
   .opinions .swiper .opinions-box blockquote {
     font-size: 1.6rem;
     width: 80%;
     margin: 0 auto;
   }
+
   .opinions .swiper .opinions-box h4 {
     font-size: 2rem;
   }
+
   .opinions .swiper .opinions-box p {
     font-size: 1.6rem;
   }
@@ -509,13 +602,16 @@ body {
   .contact h2 {
     font-size: 3.6rem;
   }
+
   .contact__mail img {
     width: 2%;
   }
+
   .contact__mail .p-mail {
     margin: 0;
     font-size: 2.4rem;
   }
+
   .contact .p-copy {
     margin: 0;
     font-size: 1.6rem;
@@ -525,6 +621,7 @@ body {
   .top {
     height: 75vh;
   }
+
   .top .welcome h1 {
     margin-bottom: 4rem;
   }
@@ -536,12 +633,15 @@ body {
   .opinions .opinions-text p {
     padding: 0;
   }
+
   .opinions .swiper-pagination {
     position: relative;
     margin-top: 3.5rem;
   }
+
   .opinions .swiper .opinions-box {
     width: 80%;
+    height: 40vh;
   }
 }
 

@@ -1,7 +1,7 @@
 @import 'colors';
  
 *{
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
@@ -198,7 +198,7 @@ body{
         color: $typeface;
         grid-area: p;
         margin: 0;
-        padding: 0 3rem;
+        padding: 0 1.5rem;
     }
 }
 
@@ -229,14 +229,20 @@ body{
             margin-top: 3.5rem;
         }
         .opinions-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             background-color: #fff;
             box-shadow: 9px -5px 17px 1px rgba(192, 192, 196, 1);
             width: 85%;
+            height: 40vh;
             border-radius: 2rem;
             padding: 2rem 0;
             margin: 0 auto;
             img{
                 width: 25%;
+                border-radius: 50%;
             }
             blockquote{
                 padding: 2rem 2.5rem;
@@ -503,6 +509,7 @@ body{
                 background-color: #fff;
                 box-shadow: 9px -5px 17px 1px rgba(192, 192, 196, 1);
                 width: 60%;
+                height: 55vh;
                 border-radius: 2rem;
                 padding: 2rem 0;
                 margin: 0 auto;
@@ -571,6 +578,7 @@ body{
             }
             .opinions-box{
                 width: 80%;
+                height: 40vh;
             }
     }
   }
